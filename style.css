@@ -1,27 +1,28 @@
 * styling of the webpage */
 body {
-    font: 20px Montserrat, sans-serif;
+    font-family: Open Sans;
     line-height: 1.8;
-    color:#00e6ac; /* light blue */
+    background-color:#f8f8f8; /* light blue */
 }
 p {
-	font-size: 16px;
+	font-size: 25px;
+	font-family: Open Sans;
 }
 .container_front {
     padding-top: 70px;
     padding-bottom: 70px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color:#f8f8f8;
 }
 .margin {margin-bottom: 45px;}
-.bg{
-    background-color: #ffcccc; /* Light Pink */
-    color: #000000;
-}
-/* #a6ff4d; /* Lime green */
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    background-color:#f8f8f8;
 }
 .navbar {
     padding-top: 5px;
@@ -31,8 +32,10 @@ p {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
-    background-color: #000000;
+    background-color: #9ECCBF;
     height: 10px;
+    color: #000000;
+    font-style: bold;
 }
 .navbar-nav  li a:hover {
     color: #ffffff;
